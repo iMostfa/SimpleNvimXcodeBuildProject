@@ -1,0 +1,6 @@
+module Pods_Simplenvimproblem {
+  umbrella header "Pods-Simplenvimproblem-umbrella.h"
+
+  export *
+  module * { export * }
+}

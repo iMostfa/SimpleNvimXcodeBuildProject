@@ -1,0 +1,24 @@
+"/Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift":
+  diagnostics: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/DispatchQueue+Alamofire.dia"
+  object: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/DispatchQueue+Alamofire.o"
+  dependencies: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/DispatchQueue+Alamofire.d"
+  const-values: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/DispatchQueue+Alamofire.swiftconstvalues"
+  swift-dependencies: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/DispatchQueue+Alamofire.swiftdeps"
+"/Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/Alamofire/Source/HTTPMethod.swift":
+  dependencies: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/HTTPMethod.d"
+  const-values: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/HTTPMethod.swiftconstvalues"
+  swift-dependencies: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/HTTPMethod.swiftdeps"
+  diagnostics: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/HTTPMethod.dia"
+  object: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/HTTPMethod.o"
+"/Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/Alamofire/Source/EventMonitor.swift":
+  swift-dependencies: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/EventMonitor.swiftdeps"
+  dependencies: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/EventMonitor.d"
+  const-values: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/EventMonitor.swiftconstvalues"
+  diagnostics: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/EventMonitor.dia"
+  object: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/EventMonitor.o"
+"/Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/Alamofire/Source/HTTPHeaders.swift":
+  dependencies: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/HTTPHeaders.d"
+  const-values: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/HTTPHeaders.swiftconstvalues"
+  swift-dependencies: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/HTTPHeaders.swiftdeps"
+  object: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/HTTPHeaders.o"
+  diagnostics: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/HTTPHeaders.dia"

@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (5.0.5)
+  - AlamofireImage (4.0.3):
+    - Alamofire (< 6.0.0, >= 5.0.2)
+  - AlamofireNetworkActivityIndicator (3.0.1):
+    - Alamofire (~> 5.0)
+  - AlamofireObjectMapper (6.0.0):
+    - Alamofire (~> 5.0.0-beta.2)
+    - ObjectMapper (~> 3.4)
+  - internalLibrary (0.1.0)
+  - ObjectMapper (3.5.3)
+  - SwiftyJSON (5.0.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - AlamofireNetworkActivityIndicator
+  - AlamofireObjectMapper
+  - internalLibrary (from `internalLibrary/`)
+  - ObjectMapper
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - AlamofireNetworkActivityIndicator
+    - AlamofireObjectMapper
+    - ObjectMapper
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  internalLibrary:
+    :path: internalLibrary/
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  AlamofireImage: 3d1a2010519e58675318735580eb856e88840ff7
+  AlamofireNetworkActivityIndicator: f7d4cd8d12bcf61dc569cbe000b0c35e9c8d8d32
+  AlamofireObjectMapper: 8cf0e01a1b36b485877033f8f6aa733977488da3
+  internalLibrary: 1fceeba18225a90e881c95bf437788e86187a736
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
+
+PODFILE CHECKSUM: 1debb08b6cf58d8b422d2a58c15ebf53d25e1d33
+
+COCOAPODS: 1.13.0

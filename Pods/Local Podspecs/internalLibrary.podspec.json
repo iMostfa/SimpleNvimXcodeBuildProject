@@ -1,0 +1,23 @@
+{
+  "name": "internalLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of internalLibrary.",
+  "description": "A longer description of internalLibrary.",
+  "homepage": "http://EXAMPLE/internalLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Your Name": "youre.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "http://ibrary.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "Classes/**/*.{h,m,swift}",
+  "exclude_files": "Classes/Exclude"
+}

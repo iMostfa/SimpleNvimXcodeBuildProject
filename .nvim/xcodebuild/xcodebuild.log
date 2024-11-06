@@ -1,0 +1,120 @@
+-----------------------------
+-- xcodebuild.nvim summary --
+-----------------------------
+
+Warnings:
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift:34:1
+    extension declares a conformance of imported type 'UIButton' to imported protocol 'AlamofireExtended'; this will not behave correctly if the owners of 'UIKit' introduce this conformance in the future
+    extension UIButton: AlamofireExtended {}
+    ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift:36:1
+    extension declares a conformance of imported type 'UIImage' to imported protocol 'AlamofireExtended'; this will not behave correctly if the owners of 'UIKit' introduce this conformance in the future
+    extension UIImage: AlamofireExtended {}
+    ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift:122:1
+    extension declares a conformance of imported type 'UIImageView' to imported protocol 'AlamofireExtended'; this will not behave correctly if the owners of 'UIKit' introduce this conformance in the future
+    extension UIImageView: AlamofireExtended {}
+    ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireObjectMapper/AlamofireObjectMapper/AlamofireObjectMapper.swift:303:48
+    cast from 'Empty' to unrelated type '[T]' always fails
+                guard let emptyValue = Empty.value as? [T] else {
+                                       ~~~~~~~~~~~ ^   ~~~
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift:94:64
+    forming 'UnsafeRawPointer' to an inout variable of type String exposes the internal representation rather than the string contents.
+                if let isInflated = objc_getAssociatedObject(type, &AssociatedKeys.isInflated) as? Bool {
+                                                                   ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift:101:44
+    forming 'UnsafeRawPointer' to an inout variable of type String exposes the internal representation rather than the string contents.
+                objc_setAssociatedObject(type, &AssociatedKeys.isInflated, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+                                               ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift:131:51
+    forming 'UnsafeRawPointer' to an inout variable of type String exposes the internal representation rather than the string contents.
+                return objc_getAssociatedObject(type, &AssociatedKeys.imageDownloader) as? ImageDownloader
+                                                      ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift:134:44
+    forming 'UnsafeRawPointer' to an inout variable of type String exposes the internal representation rather than the string contents.
+                objc_setAssociatedObject(type, &AssociatedKeys.imageDownloader, downloader, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+                                               ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift:144:76
+    forming 'UnsafeRawPointer' to an inout variable of type String exposes the internal representation rather than the string contents.
+                if let downloader = objc_getAssociatedObject(UIImageView.self, &AssociatedKeys.sharedImageDownloader) as? ImageDownloader {
+                                                                               ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift:151:56
+    forming 'UnsafeRawPointer' to an inout variable of type String exposes the internal representation rather than the string contents.
+                objc_setAssociatedObject(UIImageView.self, &AssociatedKeys.sharedImageDownloader, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+                                                           ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift:157:51
+    forming 'UnsafeRawPointer' to an inout variable of type String exposes the internal representation rather than the string contents.
+                return objc_getAssociatedObject(type, &AssociatedKeys.activeRequestReceipt) as? RequestReceipt
+                                                      ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift:160:44
+    forming 'UnsafeRawPointer' to an inout variable of type String exposes the internal representation rather than the string contents.
+                objc_setAssociatedObject(type, &AssociatedKeys.activeRequestReceipt, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+                                               ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift:43:51
+    forming 'UnsafeRawPointer' to an inout variable of type String exposes the internal representation rather than the string contents.
+                return objc_getAssociatedObject(type, &AssociatedKeys.imageDownloader) as? ImageDownloader
+                                                      ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift:46:44
+    forming 'UnsafeRawPointer' to an inout variable of type String exposes the internal representation rather than the string contents.
+                objc_setAssociatedObject(type, &AssociatedKeys.imageDownloader, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+                                               ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift:57:70
+    forming 'UnsafeRawPointer' to an inout variable of type String exposes the internal representation rather than the string contents.
+                    downloader = objc_getAssociatedObject(UIButton.self, &AssociatedKeys.sharedImageDownloader) as? ImageDownloader
+                                                                         ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift:63:53
+    forming 'UnsafeRawPointer' to an inout variable of type String exposes the internal representation rather than the string contents.
+                objc_setAssociatedObject(UIButton.self, &AssociatedKeys.sharedImageDownloader, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+                                                        ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift:70:59
+    forming 'UnsafeRawPointer' to an inout variable of type String exposes the internal representation rather than the string contents.
+                    receipts = objc_getAssociatedObject(type, &AssociatedKeys.imageReceipts) as? [UInt: RequestReceipt]
+                                                              ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift:76:44
+    forming 'UnsafeRawPointer' to an inout variable of type String exposes the internal representation rather than the string contents.
+                objc_setAssociatedObject(type, &AssociatedKeys.imageReceipts, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+                                               ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift:83:59
+    forming 'UnsafeRawPointer' to an inout variable of type String exposes the internal representation rather than the string contents.
+                    receipts = objc_getAssociatedObject(type, &AssociatedKeys.backgroundImageReceipts) as? [UInt: RequestReceipt]
+                                                              ^
+   /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift:89:44
+    forming 'UnsafeRawPointer' to an inout variable of type String exposes the internal representation rather than the string contents.
+                objc_setAssociatedObject(type, &AssociatedKeys.backgroundImageReceipts, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+                                               ^
+
+Errors:
+  ✖ /Users/mostafa.essam/Desktop/Simplenvimproblem/internalLibrary/Classes/file.swift:1:8
+    no such module 'Foundationx'
+    import Foundationx
+           ^
+  ✖ /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireObjectMapper/AlamofireObjectMapper/AlamofireObjectMapper.swift:132:190
+    generic type 'DataResponse' specialized with too few type parameters (got 1, but expected 2)
+        public func responseObject<T: BaseMappable>(queue: DispatchQueue? = nil, keyPath: String? = nil, mapToObject object: T? = nil, context: MapContext? = nil, completionHandler: @escaping (DataResponse<T>) -> Void) -> Self {
+                                                                                                                                                                                                 ^           ~~~
+  ✖ /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireObjectMapper/AlamofireObjectMapper/AlamofireObjectMapper.swift:137:195
+    generic type 'DataResponse' specialized with too few type parameters (got 1, but expected 2)
+        public func responseObject<T: ImmutableMappable>(queue: DispatchQueue? = nil, keyPath: String? = nil, mapToObject object: T? = nil, context: MapContext? = nil, completionHandler: @escaping (DataResponse<T>) -> Void) -> Self {
+                                                                                                                                                                                                      ^           ~~~
+  ✖ /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireObjectMapper/AlamofireObjectMapper/AlamofireObjectMapper.swift:188:159
+    generic type 'DataResponse' specialized with too few type parameters (got 1, but expected 2)
+        public func responseArray<T: BaseMappable>(queue: DispatchQueue? = nil, keyPath: String? = nil, context: MapContext? = nil, completionHandler: @escaping (DataResponse<[T]>) -> Void) -> Self {
+                                                                                                                                                                  ^           ~~~~~
+  ✖ /Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/AlamofireObjectMapper/AlamofireObjectMapper/AlamofireObjectMapper.swift:202:164
+    generic type 'DataResponse' specialized with too few type parameters (got 1, but expected 2)
+        public func responseArray<T: ImmutableMappable>(queue: DispatchQueue? = nil, keyPath: String? = nil, context: MapContext? = nil, completionHandler: @escaping (DataResponse<[T]>) -> Void) -> Self {
+                                                                                                                                                                       ^           ~~~~~
+  ✖ /Users/mostafa.essam/Library/Developer/Xcode/DerivedData22222222222222222222/Simplenvimproblem-fjucmwbjfnzzrcfcthhvmuaknnrd/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AlamofireObjectMapper.build/Objects-normal/arm64/AlamofireObjectMapper.swiftmodule: No such file or directory (in target 'AlamofireObjectMapper' from project 'Pods')
+  ✖ /Users/mostafa.essam/Library/Developer/Xcode/DerivedData22222222222222222222/Simplenvimproblem-fjucmwbjfnzzrcfcthhvmuaknnrd/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AlamofireObjectMapper.build/Objects-normal/arm64/AlamofireObjectMapper.swiftdoc: No such file or directory (in target 'AlamofireObjectMapper' from project 'Pods')
+  ✖ /Users/mostafa.essam/Library/Developer/Xcode/DerivedData22222222222222222222/Simplenvimproblem-fjucmwbjfnzzrcfcthhvmuaknnrd/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AlamofireObjectMapper.build/Objects-normal/arm64/AlamofireObjectMapper.abi.json: No such file or directory (in target 'AlamofireObjectMapper' from project 'Pods')
+  ✖ /Users/mostafa.essam/Library/Developer/Xcode/DerivedData22222222222222222222/Simplenvimproblem-fjucmwbjfnzzrcfcthhvmuaknnrd/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AlamofireObjectMapper.build/Objects-normal/arm64/AlamofireObjectMapper.swiftsourceinfo: No such file or directory (in target 'AlamofireObjectMapper' from project 'Pods')
+  ✖ /Users/mostafa.essam/Library/Developer/Xcode/DerivedData22222222222222222222/Simplenvimproblem-fjucmwbjfnzzrcfcthhvmuaknnrd/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/internalLibrary.build/Objects-normal/arm64/internalLibrary.swiftmodule: No such file or directory (in target 'internalLibrary' from project 'Pods')
+  ✖ /Users/mostafa.essam/Library/Developer/Xcode/DerivedData22222222222222222222/Simplenvimproblem-fjucmwbjfnzzrcfcthhvmuaknnrd/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/internalLibrary.build/Objects-normal/arm64/internalLibrary.swiftdoc: No such file or directory (in target 'internalLibrary' from project 'Pods')
+  ✖ /Users/mostafa.essam/Library/Developer/Xcode/DerivedData22222222222222222222/Simplenvimproblem-fjucmwbjfnzzrcfcthhvmuaknnrd/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/internalLibrary.build/Objects-normal/arm64/internalLibrary.abi.json: No such file or directory (in target 'internalLibrary' from project 'Pods')
+  ✖ /Users/mostafa.essam/Library/Developer/Xcode/DerivedData22222222222222222222/Simplenvimproblem-fjucmwbjfnzzrcfcthhvmuaknnrd/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/internalLibrary.build/Objects-normal/arm64/internalLibrary.swiftsourceinfo: No such file or directory (in target 'internalLibrary' from project 'Pods')
+  ✖ linker command failed with exit code 1 (use -v to see invocation)
+  ✖ Unexpected failure
+
+  Build Failed
+

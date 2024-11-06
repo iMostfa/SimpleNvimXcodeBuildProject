@@ -1,0 +1,18 @@
+"/Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/Alamofire/Source/URLSessionConfiguration+Alamofire.swift":
+  object: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLSessionConfiguration+Alamofire.o"
+  dependencies: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLSessionConfiguration+Alamofire.d"
+  diagnostics: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLSessionConfiguration+Alamofire.dia"
+  swift-dependencies: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLSessionConfiguration+Alamofire.swiftdeps"
+  const-values: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLSessionConfiguration+Alamofire.swiftconstvalues"
+"/Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/Alamofire/Source/Validation.swift":
+  object: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Validation.o"
+  const-values: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Validation.swiftconstvalues"
+  diagnostics: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Validation.dia"
+  swift-dependencies: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Validation.swiftdeps"
+  dependencies: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Validation.d"
+"/Users/mostafa.essam/Desktop/Simplenvimproblem/Pods/Alamofire/Source/URLRequest+Alamofire.swift":
+  diagnostics: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLRequest+Alamofire.dia"
+  object: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLRequest+Alamofire.o"
+  dependencies: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLRequest+Alamofire.d"
+  const-values: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLRequest+Alamofire.swiftconstvalues"
+  swift-dependencies: "/Users/mostafa.essam/Desktop/Simplenvimproblem/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLRequest+Alamofire.swiftdeps"

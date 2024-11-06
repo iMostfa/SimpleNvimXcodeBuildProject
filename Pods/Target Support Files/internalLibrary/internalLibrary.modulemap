@@ -1,0 +1,6 @@
+module internalLibrary {
+  umbrella header "internalLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
